@@ -1,52 +1,53 @@
 # lst = [11,5,8,32,15,3,20,132,21,4,555,9,20]
-# b=[]
-# c=0
+# answer_massive=[]
+# sum=0
 # for i in lst:
-#     a = i%3
-#     if a==0 and  i<30:
+#     witch_fucked = i%3
+#     if witch_fucked==0 and  i<30:    //zaeb_me
 #         print(i)
 #     else:
-#         b.append(i)
+#         answer_massive.append(i)
 # for i in b:
-#     c = c + i
-# print(c)
+#     sum = sum + i
+# print(sum)
 
 # lst = [11,5,8,32,15,3,20,139,21,4,555,9,20]
 # for i in lst:
-#     a = i%2
+#     witch_fucked_two = i%2
 #     if i == 139:
 #         break
-#     elif a != 0:
+#     elif witch_fucked_two != 0:
 #         print(i)
 
 
-# def calc(a,b,c):
-#     if c == '+':
-#         print(a + b)
-#     elif c == '-':
-#         print (a - b)
-#     elif c == '*':
-#         print(a * b)
-#     elif c == '/':
-#         print(a/b)
+# def calc(first_number,second_number,operation):
+#     if operation == '+':
+#         print(first_number + second_number)
+#     elif operation == '-':
+#         print (first_number - second_number)
+#     elif operation == '*':
+#         print(first_number * second_number)
+#     elif operation == '/':
+#         print(first_number/second_number)
 #     else:
 #         print('operaction isnt supposed')
 #
-# a = float(input('first number:',))
-# b = float(input('second number:',))
-# c = input('action:',)
-# calc(a,b,c)
+# first_number = float(input('first number:',))
+# second_number = float(input('second number:',))
+# operation = input('action:',)
+# calc(first_number,second_number,operation)
 
-# def month_to_season(a):
-#     if a == 1 or a == 2 or a == 12:
+# def month_to_season(number_month):
+#     if number_month == 1 or number_month == 2 or number_month == 12:
 #         print('Winter')
-#     elif a == 3 or a == 4 or a == 5:
+#     elif number_month == 3 or number_month == 4 or number_month == 5:
 #         print ('Spring')
-#     elif a == 6 or a == 7 or a == 8:
+#     elif number_month == 6 or number_month == 7 or number_month == 8:
 #         print ('Summer')
-#     elif a == 9 or a == 10 or a == 11:
+#     elif number_month == 9 or number_month == 10 or number_month == 11:
 #         print('Autumn')
 #     else:
 #         print('in year exist 12 months')
 #
 # month_to_season(int(input('number of month in year:')))
+
