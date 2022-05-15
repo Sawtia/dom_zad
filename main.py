@@ -51,3 +51,14 @@
 #
 # month_to_season(int(input('number of month in year:')))
 
+winter = ['1','2','12']
+spring = ['3','4','5']
+summer = ['6','7','8']
+autumn = ['9','10','11']
+season = {'winter' : winter, 'spring' : spring, 'autumn ':autumn, 'summer' : summer}
+a = input('witch month?')
+for key in season:
+    if a in ','.join(season[key]):
+        print(key)
+        break
+
